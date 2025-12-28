@@ -1,0 +1,88 @@
+<html>
+<head>
+  <title>Сообщение</title>
+  <HTA:APPLICATION
+    APPLICATIONNAME="Папка создана"
+    BORDER="thin"
+    CAPTION="yes"
+    INNERBORDER="yes"
+    SCROLL="no"
+    SINGLEINSTANCE="yes"
+    WINDOWSTATE="normal"
+    SYSMENU="no"
+    MAXIMIZEBOX="no"
+    MINIMIZEBOX="no"
+    RESIZE="no"
+    WINDOWWIDTH=600
+    WINDOWHEIGHT=400
+    SHOWINTASKBAR="no"
+  >
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 600px;
+      height: 400px;
+      background-image: url('C:\\Users\\Хозяин\\Desktop\\Создание папки (Сегодня)\\more.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      margin-top: 80px;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      padding: 30px 40px;
+      text-align: center;
+      max-width: 80%;
+    }
+
+    .message {
+      font-size: 24px;
+      color: white;
+      margin: 0 0 20px 0;
+      text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    }
+
+    button {
+      padding: 12px 24px;
+      background-color: white;
+      color: #0078d4;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+  <script>
+    // 1. Фиксируем размер и позицию окна
+    window.resizeTo(600, 400);
+    window.moveTo(
+      (screen.width - 600) / 2,
+      (screen.height - 400) / 2
+    );
+
+    // 2. Автоматическое закрытие через 2000 мс (2 секунд)
+    setTimeout(function() {
+      window.close();
+    }, 5000);
+
+    
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="message">Папка создана</div>
+    <!-- Кнопка остаётся для ручного закрытия -->
+    <button onclick="window.close()">Окно закроется через 2 сек</button>
+  </div>
+</body>
+</html>
