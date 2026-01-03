@@ -128,7 +128,7 @@ Function GetHTAContent(msg, ttl)
     "        alert('Ошибка: элемент с классом ""message"" не найден!');" & vbCrLf & _
     "      }" & vbCrLf & _
     "    };" & vbCrLf & _
-    "    setTimeout(function() { window.close(); }, 4500);" & vbCrLf & _
+    "    setTimeout(function() { window.close(); }, 3000);" & vbCrLf & _
     "  </script>" & vbCrLf & _
     "</head>" & vbCrLf & _
     "<body>" & vbCrLf & _
