@@ -82,7 +82,7 @@ Function GetHTAContent(msg, ttl)
     "      background-image: url('C:\\Users\\’оз€ин\\Desktop\\vbs-exe-main\\01.01.2026\\vbs-exe-main\\more3.gif'); display: flex; justify-content: center; align-items: center; }" & vbCrLf & _
     "    .container { background-color: rgba(255,255,255,0.9); border-radius: 12px;" & _
     "      padding: 30px 40px; text-align: center; max-width: 80%; }" & vbCrLf & _
-    "    .message { font-size: 20px; color: #FF0000; margin: 0 0 20px 0; }" & vbCrLf & _
+    "    .message { font-size: 20px; color: #0000FF; margin: 0 0 20px 0; }" & vbCrLf & _
     "  </style>" & vbCrLf & _
     "  <script>" & vbCrLf & _
     "    window.resizeTo(900, 643);" & vbCrLf & _
